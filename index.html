@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>The Guardian News</title>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+<header>The Guardian News</header>
+<div class="refresh">
+    <button>Refresh</button>
+    <span class="error">Sorry, we couldn't find news for you. Please, try again later</span>
+</div>
+<div id="content"></div>
+<div id="paginationContainer">
+    <ul class="pagination">
+        <li><button id="previous"> < Previous Page</button></li>
+        <li><input type="number" id="currentNumber"></li>
+        <span>of <span id="numberOfPages"></span> pages</span>
+        <li><button id="next">Next Page ></button></li>
+    </ul>
+</div>
+    <script src="myScript.js"></script>
+</body>
+</html>
